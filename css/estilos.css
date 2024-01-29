@@ -20,7 +20,16 @@ div#fondoAcordeon{
     background-color: rgb(81, 80, 80);
     padding: 20px;
 }
+i{
+    font-size: 50px;
+    
+}
+
+/*cambio de propiedades de BOOTSTRAP*/
 .accordion-flush .accordion-item .accordion-button.collapsed {
-    border-radius: 30px !important;
+    border-radius: 40px;
     background-color: red;
+}
+.accordion-flush .accordion-item:first-child {
+        border-radius: 20px;
 }
